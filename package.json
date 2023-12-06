@@ -1,0 +1,37 @@
+{
+  "name": "backendcefetweb",
+  "version": "1.0.0",
+  "description": "Projeto Backend Diciplina Web Cefet 2023",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon",
+    "production": "pm2 start app.js --name maria_eduarda"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dudatsouza/backendCefetWeb.git"
+  },
+  "keywords": [
+    "Node.js",
+    "MySQL",
+    "JavaScript"
+  ],
+  "author": "Maria Eduarda Teixeira Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dudatsouza/backendCefetWeb/issues"
+  },
+  "homepage": "https://github.com/dudatsouza/backendCefetWeb#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-form-data": "^2.0.22",
+    "jsonwebtoken": "^9.0.2",
+    "mkdirp": "^3.0.1",
+    "moment": "^2.29.4",
+    "mysql2": "^3.6.0",
+    "nodemon": "^3.0.1",
+    "pm2": "^5.3.0"
+  }
+}
